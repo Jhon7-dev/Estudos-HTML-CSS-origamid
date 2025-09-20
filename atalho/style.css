@@ -1,0 +1,104 @@
+*{
+     font-family: Arial, Helvetica, sans-serif;
+}
+      
+
+body{
+     margin: 0px;
+     background: #f7f7f7;
+     max-width: 1000px;
+     margin: 0px auto;
+     display: grid;
+     gap: 60px;
+     justify-items: center;
+}
+.conteudo{
+     display: grid;
+     grid-template-columns: 2fr 2fr;
+     grid-template-rows:auto 100px ;
+     padding: 20px;
+}
+.introducao{
+     padding: 30px;
+     display: grid;
+     background: white;
+     gap: 20px;
+     justify-items: end;
+}
+.titulo{
+ font-size: 30px;
+ font-style: normal;
+}
+.botao{
+     background: #ee2211;
+     color: white;
+     width: 100px;
+     padding: 15px 30px;
+     border-radius: 4px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+img{
+     max-width: 100%;
+     display: block;
+}
+/* .fotografia{ 
+     display: grid;
+     grid-column: 2;
+     grid-row:1;
+ } */
+p{
+     font-size: 20px;
+     text-align: end;
+}
+.detalhe{
+     display: inline-block;
+     background: #ee2211;
+     width: 60px;
+     height: 4px;
+     position:absolute;
+     text-align: right;
+}
+.subtitulo{
+     display: grid;
+     justify-content: center;
+     align-content: center;
+     padding: 40px;
+     font-family: 64px;
+     color:#c6c6c6;
+     align-self: center;
+}
+.vantagens{
+     display: grid;
+     background: white;
+}
+.vantagens-item > p{
+     text-align: justify;
+
+}
+.vantagens-item{
+     background: white;
+     justify-content: center;
+     padding: 30px 100px 0px 100px;
+     
+     /* gap: 20px; */
+     /* padding-left: 30px; */
+     /* padding-bottom: 30px; */
+     /* padding-top: 30px; */
+     justify-items: start;
+     /* height: 500px; */
+}
+.subtitulo{
+     /* flex-wrap: wrap; */
+     /* padding-right: 50px; */
+     font-size: 64px;
+     height:500px;
+     /* grid-row: 2; */
+     /* margin: 0px; */
+     /* display: grid; */
+     text-align: end;
+     /* align-content: center; */
+     text-transform: uppercase;
+     
+}

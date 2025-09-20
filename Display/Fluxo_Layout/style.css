@@ -1,0 +1,77 @@
+ /*h1{
+     background: #ddd;
+     width: 300px;
+ }
+ span,a,strong {
+     border:1px solid rgba(0, 0, 0, 0.5);
+ }
+ div,h1,p{
+     border: red solid;
+ }
+
+ .caixa { 
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+ } 
+.nav{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+.principal{
+    text-align: center;
+}
+.conteudo{
+    background-color: black;
+    margin: 10px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+.titulo{
+    color: white;
+}
+.texto{
+    color:#b2b2b2;
+    padding-bottom: 10px;
+}
+.link{
+    
+
+    padding: 10px 10px ;
+    border-radius: 4px;
+    background-color: #febe01;
+    text-decoration: none;
+    color: black;
+    
+}
+span{
+    color: #febe01;
+}
+.nav{
+    text-align: center;
+}
+.navegacao{
+
+   display: inline-block;
+   background-color: #febe01;
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+   border-radius: 4px;
+   text-decoration: none;
+   color: white;
+
+
+
+}

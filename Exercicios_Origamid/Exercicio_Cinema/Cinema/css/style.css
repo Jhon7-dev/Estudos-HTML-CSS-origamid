@@ -1,0 +1,16 @@
+.today{
+     color: darkred;
+}
+.tomorrow{
+     color: darkblue;
+}
+.state{
+     color: green;
+     text-decoration: none;
+}
+a{
+     text-decoration: none;
+}
+h2 a {
+     color: green;
+}

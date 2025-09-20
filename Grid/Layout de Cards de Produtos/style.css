@@ -1,0 +1,27 @@
+.grid{
+     display: grid;
+     grid-template-columns: 200px 200px;
+     height: 800px;
+     gap:20px;
+     justify-content: start;
+     align-content: end;
+     padding: 20px;
+}
+
+.conteudo{
+     /* background-color: black;
+     color: white;
+     font-size: 50px;
+     display: grid;
+     justify-content: center;
+     
+     padding: 30px; */
+    background-color: #e74c3c;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 10px;
+}

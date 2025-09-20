@@ -1,0 +1,18 @@
+#introducao{
+     color: rgb(141, 121, 6);
+}
+.codigo{
+     color: orange;
+}
+.design{
+     color:red;
+}
+.azul{
+     color: blue;
+}
+.underline {
+     text-decoration: underline;
+}
+.grande{
+     font-size: 32px;
+}
